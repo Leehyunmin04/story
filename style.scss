@@ -10,10 +10,10 @@ body {
 }
 h1,
 h2 {
-  font-size: 34px;
+  font-size: 2.125rem;
 }
 p {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .app {
   width: 100%;
@@ -57,8 +57,8 @@ button:hover {
 }
 
 .talisman {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin: 1.5rem auto;
   border: 3px solid red;
   display: flex;
@@ -89,13 +89,13 @@ button:hover {
 
   h1,
   h2 {
-    font-size: 1.5rem;
-    line-height: 1.7;
+    font-size: 34px;
+    // line-height: 1.7;
   }
 
   p {
-    font-size: 1.125rem !important;
-    line-height: 1.5;
+    font-size: 24px !important;
+    // line-height: 1.5;
   }
 
   button {
