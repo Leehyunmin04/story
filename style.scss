@@ -8,13 +8,19 @@ body {
   align-items: center;
   min-height: 100vh;
 }
-
+h1,
+h2 {
+  font-size: 34px;
+}
+p {
+  font-size: 18px;
+}
 .app {
   width: 100%;
   max-width: 38.5rem;
   background: white;
   border-radius: 20px;
-  padding: 1.2rem;
+  padding: 17.2px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
 }
@@ -30,9 +36,9 @@ body {
 }
 
 button {
-  margin-top: 1rem;
-  padding: 0.8rem 1.2rem;
-  font-size: 1rem;
+  margin-top: 16px;
+  padding: 12.8px 19.2px;
+  font-size: 20px;
   border: none;
   border-radius: 10px;
   background: #6366f1;
@@ -88,7 +94,7 @@ button:hover {
   }
 
   p {
-    font-size: 1.125rem;
+    font-size: 1.125rem !important;
     line-height: 1.5;
   }
 
